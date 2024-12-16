@@ -1,0 +1,41 @@
+:root {
+    --neon-pink: #ff2a6d;
+    --neon-blue: #05d9e8;
+    --neon-purple: #7700ff;
+    --cyber-yellow: #ffd700;
+}
+
+body {
+    font-family: 'Rajdhani', sans-serif;
+    background: linear-gradient(45deg, #1a1a1a, #2d132c, #171228);
+    color: white;
+    overflow-x: hidden;
+}
+
+.neon-text {
+    text-shadow: 0 0 10px var(--neon-pink),
+                 0 0 20px var(--neon-pink),
+                 0 0 30px var(--neon-pink);
+}
+
+.neon-border {
+    box-shadow: 0 0 10px #bd1616, 0 0 20px #d0100a;
+}
+
+.score-input {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+img {
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+header {
+    position: relative;
+    overflow: hidden;
+}
